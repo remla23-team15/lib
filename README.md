@@ -20,8 +20,18 @@ node
 
 > version = require("./index.js")
 > version.getVersion()
-"version.printe.here"
+"version.printed.here"
 > .exit
+```
+
+## Python Module
+
+The version-aware library also contains a python module that can be used in other python apps.
+To import the `lib` python version your python project, you can add the following to your `requirements.txt` file:
+
+``` 
+# Add to requirements.txt or other dependencies list in your python project
+remla-lib @ git+https://github.com/remla23-team15/lib@main
 ```
 
 ## Contributors
